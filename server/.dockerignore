@@ -1,0 +1,17 @@
+bin
+build
+dist
+tmp
+coverage
+*.log
+Dockerfile
+.dockerignore
+.vscode
+.idea
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pfx
+*.keystore
