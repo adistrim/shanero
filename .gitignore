@@ -1,0 +1,58 @@
+# Node / React
+node_modules/
+.pnpm-store/
+app/node_modules/
+app/.next/
+app/out/
+app/build/
+app/dist/
+app/.turbo/
+app/.vercel/
+app/.env*
+app/.cache/
+app/.eslintcache
+app/coverage/
+
+# Go
+server/bin/
+server/build/
+server/dist/
+server/tmp/
+server/.env*
+server/coverage/
+server/*.log
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# System / OS
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.pfx
+*.keystore
+
+# Build cache
+.cache/
+tmp/
+dist/
+build/
