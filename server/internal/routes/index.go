@@ -6,6 +6,7 @@ import (
 
 	"server/config"
 	"server/internal/handler"
+	v1 "server/internal/routes/v1"
 )
 
 func Index() *gin.Engine {
@@ -21,6 +22,11 @@ func Index() *gin.Engine {
 	
 	router.GET("/health", handler.HealthCheck)
 	router.GET("/", handler.Root)
+
+	// Register v1 routes
+	v1Group := router.Group("/api/v1")
+	v1Routes := v1Group.Group("/")
+	v1.RegisterUserRoutes(v1Routes)
 	
 	return router
 }
