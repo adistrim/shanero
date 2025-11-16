@@ -18,7 +18,7 @@ func Migrate(db *bun.DB) {
 	}
 
 	modelsToMigrate := []any{
-		(*models.User)(nil),
+		(*model.User)(nil),
 	}
 
 	for _, m := range modelsToMigrate {
