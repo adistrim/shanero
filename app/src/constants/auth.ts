@@ -12,7 +12,22 @@ export const AUTH_TEXTS = {
     signupLink: "Sign up"
   },
   signup: {
-
+    title: "Create your Shanero account",
+    description: "Fill in your details to get started",
+    usernameLabel: "Username",
+    usernamePlaceholder: "Choose a username",
+    emailLabel: "Email",
+    emailPlaceholder: "Enter your email",
+    nameLabel: "Name",
+    namePlaceholder: "Enter your full name",
+    passwordLabel: "Password",
+    passwordPlaceholder: "Create a password",
+    confirmPasswordLabel: "Confirm Password",
+    confirmPasswordPlaceholder: "Re-enter your password",
+    submitButton: "Sign up",
+    verificationNotice: "After signing up, you'll need to verify your email before you can use the platform.",
+    loginPrompt: "Already have an account?",
+    loginLink: "Log in"
   },
   resetPassword: {
     title: "Hey there",
